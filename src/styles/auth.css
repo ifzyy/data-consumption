@@ -1,0 +1,44 @@
+.home {
+
+text-align: center;
+}
+.home > h1 {
+    font-size: 60px;
+    color: white;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.home > div {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.home > div > a {
+    background-color: red;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+        .home > div > a{
+            border: 3px solid cyan;
+            margin-top: 20px;
+            padding: 10px;
+            transition: all 0.5s ease-out;
+            background: linear-gradient(to right, cyan 50%, transparent 50%);
+            background-size: 200% 100%;
+            background-position: right;
+            color: cyan;
+            font-size: 20px;
+        }
+    
+        .home >  div > a:hover {
+            background-position: left;
+            color: black;
+        }
